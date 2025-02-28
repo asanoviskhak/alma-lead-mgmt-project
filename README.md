@@ -14,13 +14,13 @@
 
 ### Installation
 1. Clone the repository: 
-```git clone [https://github.com/asanoviskhak/alma-lead-mgmt-project.git](https://github.com/asanoviskhak/alma-lead-mgmt-project.git)```
+`git clone [https://github.com/asanoviskhak/alma-lead-mgmt-project.git](https://github.com/asanoviskhak/alma-lead-mgmt-project.git)`
 
 2. Install dependencies:
-```npm install```
+`npm install`
 
 3. Run the development server:
-```npm run dev```
+`npm run dev`
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
@@ -52,14 +52,6 @@ This lead management application for Alma Frontend Assessment is built using Nex
 - `public/`: Static assets
 - `constants/`: Some most used constants
 
-### Data Flow
-1. User interacts with the UI (e.g., submitting a lead form)
-2. React components handle user input and trigger appropriate actions
-3. API calls are made to the backend (Next.js API routes)
-4. Server processes the request, interacts with the database (mock data in current implementation)
-5. Response is sent back to the client
-6. React components update the UI based on the response
-
 ## Additional Documentation
 
 ### Authentication
@@ -78,6 +70,5 @@ API routes are located in the `app/api` directory. These serverless functions ha
 ### Troubleshooting
 If you encounter any issues during setup or runtime, please check the following:
 1. Ensure all dependencies are correctly installed
-2. Verify that environment variables are properly set
-3. Check the console for any error messages
-4. Ensure you're using a compatible Node.js version
+2. Check the console for any error messages
+3. Ensure you're using a compatible Node.js and npm versions
